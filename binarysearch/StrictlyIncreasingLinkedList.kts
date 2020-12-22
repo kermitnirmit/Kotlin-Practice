@@ -13,8 +13,8 @@ fun solve(head: LLNode): Boolean {
     return true
 }
 
-
 val tail: LLNode = LLNode(null, 2)
 val middle: LLNode = LLNode(tail, 3)
 val head: LLNode = LLNode(middle, 2)
+
 print(solve(head))
